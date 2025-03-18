@@ -1,0 +1,59 @@
+@keyframes aparecer{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+  
+body{
+    background: linear-gradient(black,white);
+    color: white;
+    animation: aparecer 1.5s;
+}
+#diego{
+    width: 300px;
+}
+h1{
+    font-size:4rem;
+    
+}
+p{
+    font-size:1.8rem;
+    margin-left:4%;
+    
+}
+.first{
+    margin-top: 10%;
+    display:grid;
+    place-items: center;
+}
+h2{
+    display:grid;
+    place-items:center;
+    font-size: 2.6rem;
+    color: black;
+}
+.second{
+    display: grid;
+    place-items: center;
+}
+.links{
+    display: flex;
+    gap: 0%;
+    
+    
+}
+#linkedin{
+    width: 250px;
+}
+#github{
+    width: 200px;
+}
+ul li a img{
+    transition: transform 0.3s ease-in-out;
+}
+ul li a img:hover{
+    transform: scale(1.2);
+}
