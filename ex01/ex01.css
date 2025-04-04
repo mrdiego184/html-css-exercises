@@ -11,6 +11,8 @@ body{
     background: linear-gradient(black,white);
     color: white;
     animation: aparecer 1.5s;
+    font-family: "Comfortaa", sans-serif;
+
 }
 #diego{
     width: 300px;
@@ -22,6 +24,66 @@ h1{
 p{
     font-size:1.8rem;
     margin-left:4%;
+    
+}
+.first{
+    margin-top: 10%;
+    display:grid;
+    place-items: center;
+}
+h2{
+    display:grid;
+    place-items:center;
+    font-size: 2.6rem;
+    color: black;
+}
+.second{
+    display: grid;
+    place-items: center;
+
+}
+.links{
+    display: flex;
+    
+}
+ul{
+    list-style:none;
+}
+.habilidades{
+    display: flex;
+    gap: 0%;
+}
+#linkedin{
+    width: 250px;
+}
+#github{
+    width: 200px;
+}
+#zap{
+    width: 200px;
+}
+#css{
+    width: 180px
+}
+#python{
+    width: 180px
+}
+#html{
+    width: 180px
+}
+ul li a img{
+    transition: transform 0.3s ease-in-out;
+}
+ul li a img:hover{
+    transform: scale(1.2);
+}
+.danditha{
+    transition: transform 0.3s ease-in-out;
+}
+.danditha:hover{
+    transform: scale(1.2);
+}
+
     
 }
 .first{
